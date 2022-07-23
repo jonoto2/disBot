@@ -32,4 +32,4 @@ async def on_member_join(member):
 
 keep_alive()
 token = os.environ.get("TOKEN")
-client.run(token)
+client.run(process.env.TOKEN)
