@@ -22,11 +22,7 @@ async def hello(ctx):
     await ctx.send(
         f'{ctx.message.author.mention}: jello'
     )
-#-----
-
-@client.command()
-async def helpi(ctx):
-    await ctx.send(hel)
+#------
 #-----------
 
 @client.event
